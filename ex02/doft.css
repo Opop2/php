@@ -1,0 +1,19 @@
+body {
+    background-color: #505050;
+}
+
+.wrapper {
+    border-radius: 10px;
+    background-color: #1b1b1b;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.header {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.left_sidebar {
+    margin-left: 600px;
+    margin-top: 20px;
+}
