@@ -83,6 +83,8 @@ p {
     text-align: start;
     line-height: 0.5;
     padding-left: 5px;
+    font-family: monospace;
+	font-color: black;
 }
 
 .capital {
@@ -111,4 +113,14 @@ p {
 .png-right {
     vertical-align: top;
     margin: 20px;
+}
+.brick {
+	background-image: url(resources/brick.jpg);
+	background-position: left bottom;
+	background-repeat: repeat;
+	height: 60px;
+	margin: 5px;
+}
+.shadow{
+    text-shadow: 4px 4px 10px red;
 }
