@@ -3,11 +3,10 @@ body {
 }
 
 .wrapper {
-
     border-radius: 10px;
-    margin: 0 auto; 
-    width: 1420px;
-    height:137px; 
+    margin: 0 auto;
+    width: 1620px;
+    height: 137px;
     background: #909090;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
 }
@@ -16,65 +15,100 @@ body {
     width: 440px;
     margin-top: 20px;
     padding: 10px;
-    
 }
-.main{
+
+.main {
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
     position: relative;
     padding-bottom: 150px;
-    
 }
+
 .left_sidebar {
     display: inline-block;
     border-radius: 10px;
     /*margin-left: 20px;*/
-   /* margin-top: 20px;*/
-    width: 137px;
-    height:425px;
+    /* margin-top: 20px;*/
+    width: 160px;
+    height: 490px;
     vertical-align: top;
     background: #909090;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
-   
 }
-.right_sidebar{
+
+.right_sidebar {
     display: inline-block;
     border-radius: 10px;
-   /* margin-left: 20px;*/
-   /* margin-top: 20px;*/
-    width: 137px;
-    height:425px;
+    /* margin-left: 20px;*/
+    /* margin-top: 20px;*/
+    width: 160px;
+    height: 490px;
     vertical-align: top;
     background: #909090;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
 }
-.content{
+
+.content {
     display: inline-block;
     /*margin-top: 20px;*/
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding: 10px;
     background: #909090;
     vertical-align: top;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
 }
+
 .main-img {
     border: none;
     padding: none;
     margin: none;
 }
-.popup{
+
+.popup {
     position: absolute;
-    background: green ;
+    background: #88ff89;
     bottom: 60px;
-    left: -20px;
-    width: 520px;
+    left: 545px;
+    width: 580px;
     height: 165px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
     border-radius: 10px;
 }
 
+p {
+    text-align: start;
+    line-height: 0.5;
+    padding-left: 5px;
+}
 
+.capital {
+    font-size: 30px;
+}
+
+.cursive {
+    font-style: italic;
+}
+
+.loupe {
+    position: absolute;
+    right: 520px;
+}
+
+.png {
+    vertical-align: top;
+    margin: 20px;
+}
+
+.red-border {
+    border: 5px solid #fb0203;
+    border-radius: 5px;
+}
+
+.png-right {
+    vertical-align: top;
+    margin: 20px;
+}
